@@ -1,0 +1,136 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    grid-gap: 1vw;
+    grid-template-columns: 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw;  
+}
+.containerF{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 18vw 18vw 18vw 18vw 18vw; 
+}
+.container-flex{
+    display: flex;
+}
+#logo{
+    margin-left: 170px;
+}
+#logo img{
+    width: 5.7vw;
+}
+header{
+    width: 99.14vw;
+    height: 7.1vh;
+    background-color:#333333;
+    text-align: center;
+}
+header div div{
+    grid-column: 1/2; 
+}
+
+header nav{
+    margin-top: 1.4vh;
+    grid-column: 2/span 6;
+    height: 5vh;
+    padding-top: 1vh;
+}
+#s-d{
+    margin-top: 0.4vh;
+    grid-column: 8/span 2;
+    margin-right: 100px;
+}
+#s-d img{
+    margin-left: 20px;
+    grid-column: 8;
+}
+header nav ul li a{
+    font-size: 0.9vw;
+    text-decoration: none;
+    padding-right: 1.7vw;
+    padding-left: 1.7vw;
+    color: #bbbbbb;
+    
+}
+header nav ul li{
+    display: inline;
+    list-style: none;
+}
+#aviso{
+    grid-column: span 8;
+    background-color: #F5F5F7;
+    padding-top: 1.5vh;
+    padding-bottom: 0.5vh;
+}
+#aviso img{
+    margin-left: 100px;
+    width: 6.7vw;
+    grid-column: 3;
+}
+#aviso p{
+    font-size: 1vw;
+    color: #1cb4f0;
+    margin-top: 30px;
+    grid-column: 4/8;
+}
+div div p{
+    margin-top:1.3vh ;
+    text-align: center;
+}
+#fstSession img{
+    width: 99.13vw;
+}
+#esquerda{
+    margin-left: 0.9vw;
+}
+.container-flex img{
+    width: 49vw;
+    margin-top: 1.8vh;
+}
+footer{
+    padding-top: 1vh;
+    background-color: #F5F5F7;
+}
+footer nav {
+    margin-left: 9vw;
+}
+nav ul{
+    margin-bottom: 2vh;
+}
+nav ul li{
+    
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    font-size: 0.6vw;
+    text-decoration: none;
+    
+}
+label h3{
+    font-size: 0.7vw;
+    margin-bottom: 1vh;
+}
+#footerfooter{
+    text-align: center;
+}
+#footerfooter div{
+    
+    display: inline;
+}
+#footerfooter a{
+    text-decoration: none;
+
+}
+#footerfooter div div a{
+    margin-left: 1vw;
+}
+#footerfooter div div {
+    margin-left: 4vw;
+}
